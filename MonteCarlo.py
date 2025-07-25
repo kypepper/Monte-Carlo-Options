@@ -49,7 +49,7 @@ Also visualized are asset paths from a Monte Carlo simulation.
 
 S = st.slider("Initial Stock Price (S₀)", 20.0, 1000.0, 100.0)
 K = st.slider("Strike Price (K)", 20.0, 1000.0, 100.0)
-T = st.slider("Time to Maturity (T in years)", 0.1, 5.0, 1.0, step=0.1)
+T = st.slider("Time to Maturity (T in years)", 1.0, 10.0, 1.0, step=0.5)
 r = st.slider("Risk-Free Rate (r)", 0.0, 0.1, 0.03, step=0.005)
 sigma = st.slider("Volatility (σ)", 0.01, 1.0, 0.2, step=0.01)
 N = st.slider("Number of Steps (N)", 10, 1000, 100, step=10)
